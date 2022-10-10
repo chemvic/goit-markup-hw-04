@@ -140,6 +140,11 @@ color: var(--accent-color);
  .contacts-basement.link:focus {
 color: var(--accent-color); 
 }
+.icon-mail{
+   color: #757575;
+   padding: 0;
+   display: inline-block;
+}
 
  /* footer */
  .footer{
@@ -182,7 +187,11 @@ color: var(--accent-color);
 
  /* Hero index*/
  .hero{
+  
    background-color: var(--footer-background-color);
+   background-image: url(../images/hero.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
    padding: 200px 0;
    text-align: center;
 
