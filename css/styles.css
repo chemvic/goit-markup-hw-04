@@ -142,20 +142,25 @@ color: var(--accent-color);
  .contacts-basement.link:focus {
 color: var(--accent-color); 
 }
-.contact:hover{
-   color: var(--accent-color); 
+.contacts .link:hover .icon-mail{
+  fill: var(--accent-color); 
+}
+.contacts .link:hover .icon-smartphone{
+  fill: var(--accent-color); 
 }
 .contacts .icon-mail{
-  width: 16px;
+width: 16px;
  height: 12px;
  margin-right:10px;
- 
+ fill: var(--secondary-text-color); 
 }
 .contacts .icon-smartphone{
   width: 10px;
  height: 16px;
  margin-right: 10px;
- }
+ fill: var(--secondary-text-color); 
+}
+ 
 
  /* footer */
  .footer{
@@ -201,15 +206,16 @@ color: var(--accent-color);
    padding: 200px 0;
    text-align: center;
 background-color: var(--footer-background-color);
- }
+
+}
  .overlay{ 
    height: 600px;
-      min-width: 1600px;
+     max-width: 1600px;
       margin: 0 auto;
    background-image: linear-gradient(to right, rgb(47,48,58,0.4),rgb(47,48,58,0.4)), url(../images/hero.jpg);
-         background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
      
  }
 .hero-title{
@@ -342,8 +348,8 @@ img {
    text-align: center;
 }
 .social{
-   display: flex;
-flex-direction: row;
+display: flex;
+align-items: center;
 justify-content: center;
 gap: 10px;
 margin-bottom: 42px;
@@ -360,9 +366,8 @@ height: 44px;
    background-color: var(--accent-color);
  
 }
-.icons-social:hover{
- 
-   fill: #fff;
+.social-link:hover .icons-social{
+    fill: var(--primary-white-color);
 }
 .icons-social{
    width: 20px;
