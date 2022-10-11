@@ -348,25 +348,25 @@ justify-content: center;
 gap: 10px;
 margin-bottom: 42px;
   background-position: center;
+  
 }
 .social-link{
    padding: 12px;
  border-radius: 50%;
 
 }
-/* .social-link:hover{
+.social-link:hover{
    background-color: var(--accent-color);
-   fill: #fff;
-} */
-.icon-social:hover{
-   background-color: var(--accent-color);
+ 
+}
+.icons-social:hover{
+ 
    fill: #fff;
 }
 .icons-social{
    width: 20px;
    height: 20px;
-    /* color: var(--icons-color); */
-    fill: #AFB1B8;
+   fill: var(--icons-color);
    }
 
 /* portfolio */
