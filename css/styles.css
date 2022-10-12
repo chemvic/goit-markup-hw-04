@@ -518,6 +518,10 @@ margin-right: 8px;
 .services{
     text-decoration: none;
 }
+.cart:hover,
+.cart:focus{
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .services .list-title{
    margin-bottom:4px;
