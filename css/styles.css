@@ -392,11 +392,12 @@ justify-content: center;
 }
 .icons-social{
       fill: currentColor;
+      width:20px;
+    height: 20px;
    }
 .foot.icons-social{
       fill: currentColor;
-      /* width:20px;
-       hight:20px; */
+      
    }
 .title-social{
 font-family: 'Roboto';
@@ -439,6 +440,8 @@ font-family: 'Roboto';
 
 .client-icon{
    fill: currentColor;
+   width: 106px;
+   height: 60px;
   }
 .client-link:hover,
 .client-link:focus{
