@@ -364,11 +364,20 @@ background-position: center;
   
 }
 .social-link{
-padding: 12px;
 border-radius: 50%;
 width: 44px;
 height: 44px;  
 display: flex;
+align-items: center;
+justify-content: center;
+color: var(--icons-color);
+}
+.foot.social-link{
+background-image: linear-gradient(to right, rgb(255, 255, 255, 0.1),rgb(255, 255, 255, 0.1));
+color: var(--primary-white-color);
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .social-link:hover,
 .social-link:focus{
@@ -382,9 +391,32 @@ display: flex;
     fill: var(--primary-white-color);
 }
 .icons-social{
-      fill: var(--icons-color);
+      fill: currentColor;
    }
+.foot.icons-social{
+      fill: currentColor;
+      /* width:20px;
+       hight:20px; */
+   }
+.title-social{
+font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-bottom: 20px;
+}
 
+.foot{
+   display: flex;
+   align-items: baseline;
+}
+.footer-social{
+   margin-left: 70px;
+}
    /* Постійні клієнти */
    .clients-list{
       display: flex;
