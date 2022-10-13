@@ -276,20 +276,20 @@ background-color: var(--footer-background-color);
       font-size: 14px;
       line-height: 1.71;
 }
-.benefits .icon{
+.benefits-list .icon{
    width: 270px;
    height: 120px;
    background-color: var(--primary-button-color);
    border-radius:4px;
    margin-bottom: 30px;
-   padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .svg{
      width: 70px;
    height: 70px;
-   margin:0 auto;
-   
-}
+ }
 .benefits-list {
    display: flex;
 }
@@ -336,6 +336,7 @@ img {
    color: var(--secondary-text-color);
    font-size: 16px;
       line-height: 1.19;
+      margin-bottom: 16px;
 }
 
 .staff-list{
@@ -351,7 +352,7 @@ img {
    background-color: #fff;
 }
 .staff-list .info{
-   padding: 30px 0 16px;
+   padding: 30px 0 ;
    text-align: center;
 }
 .social{
@@ -359,7 +360,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
-margin-bottom: 42px;
 background-position: center;
   
 }
@@ -444,7 +444,8 @@ font-family: 'Roboto';
    height: 60px;
   }
 .client-link:hover,
-.client-link:focus{
+.client-link:focus
+{
    border-color: var(--accent-color);
 }
 .client-link:hover .client-icon{
